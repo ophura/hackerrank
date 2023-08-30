@@ -1,4 +1,4 @@
-static (int, int) Rate(IReadOnlyList<int> x, IReadOnlyList<int> y)
+(int, int) Rate(IReadOnlyList<int> x, IReadOnlyList<int> y)
 {
     (int z, int w) rating = default;
     for (var i = 0; i < x.Count; i++)
