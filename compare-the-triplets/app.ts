@@ -1,4 +1,4 @@
-const rate = (x: ReadonlyArray<number>, y: ReadonlyArray<number>) => {
+const rate = (x: number[], y: number[]) => {
     let z = 0, w = 0;
     for (let i = 0; i < x.length; i++)
         if (x[i] > y[i]) z++;
